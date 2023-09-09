@@ -1,0 +1,24 @@
+*{
+    background-color: yellow;
+}
+h1{
+    text-align: center;
+}
+.profile{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+}
+.profile p{
+    display: block;
+    font-size: larger;
+    font-weight: bold;
+}
+.container{
+    text-align: center;
+}
+.container p, .container a{
+display: inline-block;
+margin: 10px 0;
+}
